@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/r" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="550dp"
+        android:background="#F8F4F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginBottom="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/fg" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="381dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="190dp"
+            android:layout_marginBottom="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/frtre" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@+id/textView8"
+            app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="вчера в 22:37"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="packed"
+                tools:layout_conversion_absoluteHeight="19dp"
+                tools:layout_conversion_absoluteWidth="130dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="1630dp"
+                android:text="osint open source telegram telegram api разведка по открытым источникам"
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="1160dp"
+                android:text="Занимаясь достаточно долгое время развитием собственного клиента, клиент оброс множеством оберток над группами API-вызовов. Стало понятно, что как простой набор API вызовов к Telegram он нас не особо интересует — в пределах сети Telegram гораздо интереснее выполнять комплексные операции, задействующие сразу множество API-вызовов. Таким образом был осуществлен переход от API-направленности к сценарийной направленности клиента.
+\n \n Сценарий в telegram-osint-lib – это “черный ящик”, реализованный в виде последовательности API-вызовов, позволяющей достичь определенной конечной цели (output) на основе входных параметров (input). Аргументы представляют из себя понятные сущности окружающего мира (например, ключевое слово для поиска). В результате использования аргументов внутри черного ящика на выходе получается запрошенная информация (например, сообщения с указанным ключевым словом). Вся рутина по взаимодействию с API Telegram при этом инкапсулирована в реализации сценария. Сценарии могут сочетаться друг с другом, формируя более комплексные сценарии.
+\n \n
+Концепция сценария была разработана в процессе решения задач внутри компании, однако, схожие понятия встречаются много где, например, в литературе по анализу требований — Scenario-based modeling and its applications — т.е идея “scenario-based“ сама по себе, конечно же, не нова.
+"
+                android:textColor="@android:color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="155dp"
+                android:layout_marginEnd="160dp"
+                android:text="OSINT в Telegram"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="1130dp"
+                android:text="Сценарийная направленность"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="840dp"
+                android:text="Мы разрабатываем программные системы для сбора данных из открытых источников. Об одном из наших сервисов — Nuga — мы уже как-то рассказывали ранее.
+\n \n
+Здесь и далее под “клиентом” подразумевается не графическое приложение, а “бот” (не путать с внутренним функционалом Telegram), управляемый из консоли, который решает определенную прикладную задачу в рамках сети Telegram с помощью предоставляемого API.
+\n \n
+На момент первичной реализации клиента (~конец 2018 года) сторонние библиотеки-клиенты Telegram, которые мы рассматривали, обновлялись нерегулярно и не соответствовали требованиям из документации по протоколу, которая обновлялась с большой задержкой (полгода и более), как и официальные клиенты
+"
+
+                android:textColor="@android:color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="810dp"
+                android:text="Почему пришлось делать собственный клиент?"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="55dp"
+                android:layout_height="31dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="7dp"
+                android:text="Postuf"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.955"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.005"
+                tools:layout_conversion_absoluteHeight="19dp"
+                tools:layout_conversion_absoluteWidth="411dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="173dp"
+                android:layout_marginTop="35dp"
+                android:text="Разработка"
+                android:textColor="#92BED1"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="96dp"
+                android:layout_marginEnd="16dp"
+                android:text="Информационная безопасность, Блог компании Postuf"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="345dp"
+                android:layout_height="385dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:text="Протокол Telegram известен своей доступностью и открытостью. У него есть множество публичных реализаций: tdlib/td, rubenlagus/TelegramApi, vysheng/tg, LonamiWebs/Telethon и другие. Однако, даже имея в распоряжении столь богатый инструментарий и объемную документацию (https://core.telegram.org/api), решить прикладную задачу, собрав из многообразия методов API нужную цепочку – не так-то просто. Сможет, например, “неподготовленный ум“ сходу догадаться, как решить прикладную задачу а-ля “поиск по номеру в Telegram“? — Скорее всего, придется потратить какое-то время на изучение API.
+\n\n
+Официальный клиент Telegram содержит в себе массу API-цепочек, реализующих определенные пользовательские сценарии. Если подумать, взаимодействие на основе сценариев — наиболее удобный и предпочтительный способ, поэтому мы решили пойти по пути упрощения взаимодействия с Telegram на основе реализации библиотеки сценариев. Так как наша деятельность тесно связана с направлением OSINT, то в первую очередь мы решили реализовать ряд OSINT-сценариев, применимых в сети Telegram, о которых и хотим рассказать в этой статье.
+"
+                android:textColor="@android:color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="418dp"
+                android:layout_height="263dp"
+                android:layout_marginTop="130dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.571"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/telegram" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
